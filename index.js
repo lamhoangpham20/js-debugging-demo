@@ -1,7 +1,7 @@
 function sum(a, b) {
     let value1 = a;
     let value2 = a;
-    let result = valueA + valueB;
+    let result = value1 + value2;
     return result;
 }
 
@@ -15,10 +15,10 @@ function max(a, b) {
 
 function factorial(a)
 {    
-    let result = a;
-    for(let i = a; i > 0; i--)
+    let result = 1;
+    for(let i = a; i > 1; i--)
     {
-        result = result * i - 1;   
+        result = result * i ;   
     }        
 
     return result;                        
